@@ -1,4 +1,26 @@
-#EXTM3U
+<!DOCTYPE html>
+<html>
+<head>
+<title>ortsa1</title>
+<body>
+<link rel="icon" type="image/png" href="https://www.astro.com.my">
+<script type="text/javascript">
+window.location = "https://www.astro.com.my"
+</script>
+</head>
+</html>
+
+<noscript>
+
+#EXTM3U x-tvg-url=https://aqfadtv.xyz/epg refresh="1440" max-conn="1" refresh="24"
+
+#EXTINF:-1 tvg-id="CHN" group-title="Info" ch-number="98" tvg-logo="https://aqfadtv.xyz/images/AqFadTV.png",DO NOT SELL THIS PLAYLIST!
+https://aqfadtv.xyz/videos/notforsale/master.m3u8
+
+#EXTINF:-1 tvg-id="CHN" group-title="Live Event" ch-number="100" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/58120e78849b450d8b3dde5c89025ee5/version/0/width/1280/height/720",The Masked Singer Malaysia S4 Live
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://ck-dash-mpd.aqfadtv.xyz/dash-ck/linear/9989
+https://live.aqfadtv.xyz/asgv/index.mpd
 
 #EXTINF:-1 tvg-id="TV1" group-title="myFreeview" ch-number="101" group-logo="https://aqfadtv.xyz/images/myfreeview.png" tvg-logo="http://linear-poster.astro.com.my/prod/logo/TV1_v1.png",TV1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -2574,3 +2596,6 @@ https://v1.skyvod.eu.org/TonTon/Tonton%20-%202021%20Mnet%20ASIAN%20MUSIC%20AWARD
 
 #EXTINF-1 type="series" group-title="Events" tvg-logo="https://aqfadtv.xyz/images/CircleChartMusicAwards2022.jpg",Circle Chart Music Awards 2022
 http://onedrive-by-aqfadtv-vod.on.drv.tw/VOD/Events/Circle.Chart.Music.Awards.2022.1080p-AqFadTV.mp4
+
+</body>
+</html>
